@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C048A5B291FDA1D00F907D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C048A5A291FDA1D00F907D0 /* AppDelegate.swift */; };
+		9C048A5D291FDA1D00F907D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C048A5C291FDA1D00F907D0 /* SceneDelegate.swift */; };
+		9C048A5F291FDA1D00F907D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C048A5E291FDA1D00F907D0 /* ViewController.swift */; };
+		9C048A62291FDA1D00F907D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C048A60291FDA1D00F907D0 /* Main.storyboard */; };
+		9C048A64291FDA1F00F907D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C048A63291FDA1F00F907D0 /* Assets.xcassets */; };
+		9C048A67291FDA1F00F907D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C048A65291FDA1F00F907D0 /* LaunchScreen.storyboard */; };
+		9C048A74291FDAB100F907D0 /* FlexTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C048A73291FDAB100F907D0 /* FlexTextViewController.swift */; };
+		9C048A77291FDD3200F907D0 /* FlexLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 9C048A76291FDD3200F907D0 /* FlexLayout */; };
+		9C048A79291FDD3200F907D0 /* FlexLayoutYoga in Frameworks */ = {isa = PBXBuildFile; productRef = 9C048A78291FDD3200F907D0 /* FlexLayoutYoga */; };
+		9C048A7B291FDD3200F907D0 /* FlexLayoutYogaKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9C048A7A291FDD3200F907D0 /* FlexLayoutYogaKit */; };
+		A5007CA372ACC0498BC85230 /* Pods_flexTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48792B7F043A6C80C65E596B /* Pods_flexTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48792B7F043A6C80C65E596B /* Pods_flexTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flexTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9EAC5C4F2B40DBD59D9870 /* Pods-flexTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flexTest.release.xcconfig"; path = "Target Support Files/Pods-flexTest/Pods-flexTest.release.xcconfig"; sourceTree = "<group>"; };
+		9C048A57291FDA1D00F907D0 /* flexTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flexTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C048A5A291FDA1D00F907D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C048A5C291FDA1D00F907D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C048A5E291FDA1D00F907D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C048A61291FDA1D00F907D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C048A63291FDA1F00F907D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C048A66291FDA1F00F907D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C048A68291FDA1F00F907D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C048A73291FDAB100F907D0 /* FlexTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexTextViewController.swift; sourceTree = "<group>"; };
+		CC52CDF4C1A2FB79E1C85AA4 /* Pods-flexTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flexTest.debug.xcconfig"; path = "Target Support Files/Pods-flexTest/Pods-flexTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C048A54291FDA1D00F907D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C048A77291FDD3200F907D0 /* FlexLayout in Frameworks */,
+				9C048A79291FDD3200F907D0 /* FlexLayoutYoga in Frameworks */,
+				9C048A7B291FDD3200F907D0 /* FlexLayoutYogaKit in Frameworks */,
+				A5007CA372ACC0498BC85230 /* Pods_flexTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EC90E5ED8ECBB0427DE76C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48792B7F043A6C80C65E596B /* Pods_flexTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54E7C58F5FCB01E9C685463B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC52CDF4C1A2FB79E1C85AA4 /* Pods-flexTest.debug.xcconfig */,
+				6C9EAC5C4F2B40DBD59D9870 /* Pods-flexTest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9C048A4E291FDA1D00F907D0 = {
+			isa = PBXGroup;
+			children = (
+				9C048A59291FDA1D00F907D0 /* flexTest */,
+				9C048A58291FDA1D00F907D0 /* Products */,
+				54E7C58F5FCB01E9C685463B /* Pods */,
+				0EC90E5ED8ECBB0427DE76C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C048A58291FDA1D00F907D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C048A57291FDA1D00F907D0 /* flexTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C048A59291FDA1D00F907D0 /* flexTest */ = {
+			isa = PBXGroup;
+			children = (
+				9C048A5A291FDA1D00F907D0 /* AppDelegate.swift */,
+				9C048A5C291FDA1D00F907D0 /* SceneDelegate.swift */,
+				9C048A5E291FDA1D00F907D0 /* ViewController.swift */,
+				9C048A60291FDA1D00F907D0 /* Main.storyboard */,
+				9C048A63291FDA1F00F907D0 /* Assets.xcassets */,
+				9C048A65291FDA1F00F907D0 /* LaunchScreen.storyboard */,
+				9C048A68291FDA1F00F907D0 /* Info.plist */,
+				9C048A73291FDAB100F907D0 /* FlexTextViewController.swift */,
+			);
+			path = flexTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C048A56291FDA1D00F907D0 /* flexTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C048A6B291FDA1F00F907D0 /* Build configuration list for PBXNativeTarget "flexTest" */;
+			buildPhases = (
+				5025D8E6C172FBA57B52CC10 /* [CP] Check Pods Manifest.lock */,
+				9C048A53291FDA1D00F907D0 /* Sources */,
+				9C048A54291FDA1D00F907D0 /* Frameworks */,
+				9C048A55291FDA1D00F907D0 /* Resources */,
+				C618E97B55CB78D7240B344F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flexTest;
+			packageProductDependencies = (
+				9C048A76291FDD3200F907D0 /* FlexLayout */,
+				9C048A78291FDD3200F907D0 /* FlexLayoutYoga */,
+				9C048A7A291FDD3200F907D0 /* FlexLayoutYogaKit */,
+			);
+			productName = flexTest;
+			productReference = 9C048A57291FDA1D00F907D0 /* flexTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C048A4F291FDA1D00F907D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9C048A56291FDA1D00F907D0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9C048A52291FDA1D00F907D0 /* Build configuration list for PBXProject "flexTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C048A4E291FDA1D00F907D0;
+			packageReferences = (
+				9C048A75291FDD3200F907D0 /* XCRemoteSwiftPackageReference "FlexLayout.git" */,
+			);
+			productRefGroup = 9C048A58291FDA1D00F907D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C048A56291FDA1D00F907D0 /* flexTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C048A55291FDA1D00F907D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C048A67291FDA1F00F907D0 /* LaunchScreen.storyboard in Resources */,
+				9C048A64291FDA1F00F907D0 /* Assets.xcassets in Resources */,
+				9C048A62291FDA1D00F907D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5025D8E6C172FBA57B52CC10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-flexTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C618E97B55CB78D7240B344F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flexTest/Pods-flexTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flexTest/Pods-flexTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flexTest/Pods-flexTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C048A53291FDA1D00F907D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C048A5F291FDA1D00F907D0 /* ViewController.swift in Sources */,
+				9C048A5B291FDA1D00F907D0 /* AppDelegate.swift in Sources */,
+				9C048A74291FDAB100F907D0 /* FlexTextViewController.swift in Sources */,
+				9C048A5D291FDA1D00F907D0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C048A60291FDA1D00F907D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C048A61291FDA1D00F907D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C048A65291FDA1F00F907D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C048A66291FDA1F00F907D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C048A69291FDA1F00F907D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C048A6A291FDA1F00F907D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C048A6C291FDA1F00F907D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC52CDF4C1A2FB79E1C85AA4 /* Pods-flexTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2XKV67PR3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = flexTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clyne.flexTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C048A6D291FDA1F00F907D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9EAC5C4F2B40DBD59D9870 /* Pods-flexTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2XKV67PR3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = flexTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clyne.flexTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C048A52291FDA1D00F907D0 /* Build configuration list for PBXProject "flexTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C048A69291FDA1F00F907D0 /* Debug */,
+				9C048A6A291FDA1F00F907D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C048A6B291FDA1F00F907D0 /* Build configuration list for PBXNativeTarget "flexTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C048A6C291FDA1F00F907D0 /* Debug */,
+				9C048A6D291FDA1F00F907D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9C048A75291FDD3200F907D0 /* XCRemoteSwiftPackageReference "FlexLayout.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/FlexLayout.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9C048A76291FDD3200F907D0 /* FlexLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C048A75291FDD3200F907D0 /* XCRemoteSwiftPackageReference "FlexLayout.git" */;
+			productName = FlexLayout;
+		};
+		9C048A78291FDD3200F907D0 /* FlexLayoutYoga */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C048A75291FDD3200F907D0 /* XCRemoteSwiftPackageReference "FlexLayout.git" */;
+			productName = FlexLayoutYoga;
+		};
+		9C048A7A291FDD3200F907D0 /* FlexLayoutYogaKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C048A75291FDD3200F907D0 /* XCRemoteSwiftPackageReference "FlexLayout.git" */;
+			productName = FlexLayoutYogaKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9C048A4F291FDA1D00F907D0 /* Project object */;
+}
